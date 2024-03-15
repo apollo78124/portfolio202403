@@ -1,0 +1,320 @@
+﻿main.home {
+}
+
+    main.home section.hero {
+        height: 100vh;
+        background: linear-gradient(0deg, rgba(37, 37, 37, 0.70) 0%, rgba(37, 37, 37, 0.70) 100%), url('../image/jumbotron.jpg'), lightgray 50% / cover no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* background-position-y: 96px; */
+        background-repeat: no-repeat;
+        background-color: #191919;
+    }
+
+    main.home .container {
+        width: 100%;
+        max-width: 1024px;
+        padding: 0px 30px;
+        margin: 0px auto;
+        display: flex;
+        /* align-items: flex-end; */
+        padding-top: 126px;
+    }
+
+    main.home section.hero .container {
+        height: calc(100vh - 100px);
+    }
+
+    main.home section.hero .hero-content h2 {
+        color: #FFF;
+        font-weight: 700;
+        font-size: 5vw;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+
+    main.home section.hero .hero-content p {
+        color: #FFF;
+    }
+
+    main.home section.regions {
+        background: linear-gradient(180.06deg, #000000 -17.25%, #343434 99.95%);
+    }
+
+        main.home section.regions * {
+            color: #FFF;
+        }
+
+    main.home section.experience {
+        background: linear-gradient(180.06deg, #000000 -17.25%, #343434 99.95%);
+    }
+
+
+        main.home section.experience * {
+            color: #FFF;
+        }
+
+    main.home section.experience {
+        color: #FFF;
+        height: fit-content;
+        padding-bottom: 100px;
+    }
+
+        main.home section.experience .timeline {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+            main.home section.experience .timeline .left {
+                width: calc(50% - 20px);
+            }
+
+                main.home section.experience .timeline .left h2 {
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 40px;
+                }
+
+            main.home section.experience .timeline .years {
+                padding-left: 32px;
+                padding-right: 32px;
+                height: fit-content;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                padding-top: 71px;
+            }
+
+                main.home section.experience .timeline .years .line {
+                    width: 1px;
+                    background-color: #FFF;
+                    height: 101px;
+                }
+
+            main.home section.experience .timeline .left .item {
+                width: 100%;
+                background-color: orange;
+                border-radius: 3px;
+                padding: 30px;
+                overflow: hidden;
+            }
+
+
+                main.home section.experience .timeline .left .item * {
+                }
+
+                main.home section.experience .timeline .left .item .item-head {
+                    display: flex;
+                    column-gap: 20px;
+                    justify-content: space-between;
+                    margin-bottom: 30px;
+                    /* align-items: center; */
+                }
+
+                    main.home section.experience .timeline .left .item .item-head img {
+                        object-fit: contain;
+                        object-position: center;
+                        max-height: 65px;
+                        margin-top: 3px;
+                    }
+
+                main.home section.experience .timeline .left .item.cs {
+                    background-color: #e96d2f;
+                    height: 389px;
+                }
+
+                    main.home section.experience .timeline .left .item.cs .item-head img {
+                        background-color: #FFF;
+                        padding: 6px 11px;
+                        padding-top: 12px;
+                    }
+
+                main.home section.experience .timeline .left .item.ea {
+                    background-color: #FFF;
+                    height: 105px;
+                    padding: 11px 28px;
+                    margin-top: 1px;
+                }
+
+                    main.home section.experience .timeline .left .item.ea * {
+                        color: #000;
+                    }
+
+                main.home section.experience .timeline .left .item.msc {
+                    margin-top: 89px;
+                    height: 108px;
+                    padding: 14px 30px;
+                    background-color: #6f6e6e;
+                }
+
+                    main.home section.experience .timeline .left .item.msc .item-head img {
+                        background-color: #FFF;
+                        padding: 15px 5px;
+                        margin-top: 8px;
+                        /* padding-top: 9px; */
+                    }
+
+            main.home section.experience .timeline .right {
+                width: calc(50% - 60px);
+            }
+
+                main.home section.experience .timeline .right h2 {
+                    text-align: center;
+                }
+
+
+                main.home section.experience .timeline .right .item {
+                    width: 100%;
+                    background-color: #f8fcff;
+                    border-radius: 3px;
+                    padding: 30px;
+                    overflow: hidden;
+                    /* background-color: #FFF; */
+                }
+
+
+                    main.home section.experience .timeline .right .item * {
+                        color: #000;
+                    }
+
+                    main.home section.experience .timeline .right .item p {
+                        line-height: 130%;
+                    }
+
+                    main.home section.experience .timeline .right .item .item-head {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 30px;
+                        column-gap: 20px;
+                    }
+
+                        main.home section.experience .timeline .right .item .item-head img {
+                            object-fit: contain;
+                            object-position: center;
+                            max-height: 65px;
+                            margin-top: 3px;
+                        }
+
+                    main.home section.experience .timeline .right .item.bcit1 {
+                        margin-top: 535px;
+                        padding: 11px 30px;
+                        height: 121px;
+                    }
+
+
+                    main.home section.experience .timeline .right .item.bcit2 {
+                        margin-top: 87px;
+                        padding: 14px 30px;
+                        height: 256px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+
+                        main.home section.experience .timeline .right .item.bcit2 h3 {
+                            margin-bottom: 20px;
+                        }
+
+                        main.home section.experience .timeline .right .item.bcit2 p {
+                            margin-bottom: 20px;
+                        }
+
+@media only screen and (max-width: 800px) {
+
+    main.home section.experience .container {
+        padding: 30px 14px;
+    }
+
+    main.home section.experience .timeline .left h2 {
+        opacity: 0;
+    }
+
+    main.home section.experience .timeline .left {
+        width: calc(100% - 47px);
+    }
+
+    main.home section.experience .timeline .years {
+        width: 34px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    main.home section.experience .timeline {
+        position: relative;
+    }
+
+
+        main.home section.experience .timeline .left .item .item-head {
+            margin-bottom: 0px;
+            width: 100%;
+            /* align-items: center; */
+        }
+
+
+        main.home section.experience .timeline .left .item.msc {
+            display: flex;
+            justify-content: space-between;
+        }
+
+            main.home section.experience .timeline .left .item.msc .item-head {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            main.home section.experience .timeline .left .item.msc h3 {
+                line-height: 120%;
+                font-size: 16px;
+            }
+
+            main.home section.experience .timeline .left .item.msc p {
+                line-height: 140%;
+                font-size: 12px;
+            }
+
+            main.home section.experience .timeline .left .item.msc .item-head img {
+                max-width: 64px;
+                height: 57px;
+                margin-left: 12px;
+                background-color: #FFF;
+                padding: 2px 3px;
+                margin-top: 8px;
+                /* padding-top: 9px; */
+            }
+
+            main.home section.experience .timeline .left .item.msc .item-text {
+                display: none;
+            }
+
+        main.home section.experience .timeline .left .item.cs .item-head {
+            flex-direction: column;
+            row-gap: 10px;
+        }
+
+        main.home section.experience .timeline .left .item.cs .item-text {
+            display: none;
+        }
+
+        main.home section.experience .timeline .right {
+            /* display: none; */
+            position: absolute;
+            left: 0px;
+            width: calc(100% - 47px);
+            top: 0px;
+        }
+
+            main.home section.experience .timeline .right h2 {
+                display: none;
+            }
+
+            main.home section.experience .timeline .right .item.bcit1 {
+                margin-top: 575px;
+                height: 86px;
+            }
+
+            main.home section.experience .timeline .right .item.bcit2 {
+                margin-top: 119px;
+            }
+}

@@ -1,0 +1,81 @@
+* {
+    transition: all 0.2s ease-in;
+}
+
+body * {
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Catamaran';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Catamaran';
+}
+
+p {
+    font-family: 'Catamaran';
+}
+
+main {
+    min-height: 78vh;
+    height: fit-content;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: calc(100vh - 135px);
+}
+
+    .wrapper .container {
+        max-width: 1024px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0px 18px;
+    }
+
+footer.footer-v20230312 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100%;
+    background-color: #454545;
+    border-bottom: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: fit-content;
+    text-align: center;
+}
+
+    footer.footer-v20230312 .container {
+        /* display: flex; */
+        /* width: 100%; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+        /* justify-content: flex-start; */
+        /* min-height: 100%; */
+    }
+
+        footer.footer-v20230312 .container a {
+            color: #fff;
+        }
+
+        footer.footer-v20230312 .container p {
+            color: #fff;
+            margin-bottom: 0px;
+        }
