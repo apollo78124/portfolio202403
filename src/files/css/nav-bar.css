@@ -11,6 +11,10 @@
     color: white;
 }
 
+nav.nav-bar-v20230311 * {
+    animation: fade-in 2s;
+}
+
     nav.nav-bar-v20230311 .nav-bar-container {
         width: 100%;
         max-width: 1024px;

@@ -1,10 +1,11 @@
-﻿main.home {
-}
+﻿main.home {background-color: #000;}
 
     main.home section.hero {
         height: 100vh;
+        background-attachment: fixed;
         background: linear-gradient(0deg, rgba(37, 37, 37, 0.70) 0%, rgba(37, 37, 37, 0.70) 100%), url('../image/jumbotron.jpg'), lightgray 50% / cover no-repeat;
         background-size: cover;
+        background-attachment: fixed;
         background-position: center;
         /* background-position-y: 96px; */
         background-repeat: no-repeat;
@@ -20,6 +21,11 @@
         /* align-items: flex-end; */
         padding-top: 126px;
     }
+
+    main.home section.hero * {
+        animation: fade-in 2s;
+    }
+
 
     main.home section.hero .container {
         height: calc(100vh - 100px);
@@ -46,7 +52,10 @@
         }
 
     main.home section.experience {
-        background: linear-gradient(180.06deg, #000000 -17.25%, #343434 99.95%);
+        
+    linear-gradient(0deg, rgba(37, 37, 37, 0.70) 0%, rgba(37, 37, 37, 0.70) 100%), url(
+        '../image/jumbotron.jpg'), lightgray 50% / cover background: no-repeat;
+        /* background: linear-gradient(0deg, rgba(37, 37, 37, 0.70) 0%, rgba(37, 37, 37, 0.70) 100%), url('../image/jumbotron.jpg'), lightgray 50% / cover no-repeat; */
     }
 
 
@@ -58,6 +67,11 @@
         color: #FFF;
         height: fit-content;
         padding-bottom: 100px;
+        background-color: #000;
+        background: linear-gradient(0deg, rgba(40, 40, 40, 0.95) 0%, rgba(37, 37, 37, 0.99) 100%), url('../image/jumbotron.jpg'), lightgray 50% / cover no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
 
         main.home section.experience .timeline {
@@ -99,7 +113,12 @@
                 border-radius: 3px;
                 padding: 30px;
                 overflow: hidden;
+                cursor: pointer;
             }
+
+                main.home section.experience .timeline .left .item:hover {
+                    transform: scale(1.03);
+                }
 
 
                 main.home section.experience .timeline .left .item * {
@@ -124,6 +143,8 @@
                     background-color: #e96d2f;
                     height: 389px;
                 }
+
+
 
                     main.home section.experience .timeline .left .item.cs .item-head img {
                         background-color: #FFF;
@@ -172,6 +193,11 @@
                     padding: 30px;
                     overflow: hidden;
                     /* background-color: #FFF; */
+                    cursor: pointer;
+                }
+
+                main.home section.experience .timeline .right .item:hover {
+                        transform: scale(1.03);
                 }
 
 
