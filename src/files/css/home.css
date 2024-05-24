@@ -1,7 +1,8 @@
 ﻿main.home {background-color: #000;}
 
     main.home section.hero {
-        height: 100vh;
+        min-height: 100vh;
+        height: fit-content;
         background-attachment: fixed;
         background: linear-gradient(0deg, rgba(37, 37, 37, 0.70) 0%, rgba(37, 37, 37, 0.70) 100%), url('../image/jumbotron.jpg'), lightgray 50% / cover no-repeat;
         background-size: cover;
@@ -28,7 +29,38 @@
 
 
     main.home section.hero .container {
-        height: calc(100vh - 100px);
+        min-height: 100vh;
+        height: fit-content;
+        padding-top: 103px;
+        padding-bottom: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+
+main.home section.hero .container .hero-content{
+        max-width: 433px;
+    }
+
+    main.home section.hero .hero-content .profile-image {
+        width: 89%;
+        aspect-ratio: 5 / 5;
+        height: auto;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+     main.home section.hero .hero-content .profile-image img {
+        width: 120%;
+        height: 120%;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        top: -31px;
+        left: -8px;
     }
 
     main.home section.hero .hero-content h2 {
@@ -68,7 +100,7 @@
         height: fit-content;
         padding-bottom: 100px;
         background-color: #000;
-        background: linear-gradient(0deg, rgba(40, 40, 40, 0.95) 0%, rgba(37, 37, 37, 0.99) 100%), url('../image/jumbotron.jpg'), lightgray 50% / cover no-repeat;
+        background: linear-gradient(0deg, rgb(40 40 40 / 96%) 0%, rgb(0 0 0 / 99%) 100%), url(../image/jumbotron.jpg), rgb(0 0 0 / 98%) 50% / cover no-repeat;
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
